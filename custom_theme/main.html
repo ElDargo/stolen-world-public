@@ -7,8 +7,8 @@
     {% if page.meta.description %}
         <meta property="og:description" content="{{ page.meta.description }}">
     {% else %}
-        {% set first_paragraph = page.content | striptags | replace('\n\n', '. ') | split('. ') | first %}
-        <meta property="og:description" content="{{ first_paragraph }}">
+        {% set first_paragraph = page.content | striptags | replace('\n\n', '. ')[:200] %}
+        <meta property="og:description" content="{{ first_paragraph }}...">
     {% endif %}
     
     {# Use the image specified in frontmatter, otherwise fallback to a default #}
