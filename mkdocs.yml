@@ -1,7 +1,9 @@
 site_name: Этион
 
 theme:
-    name: 'torillic'
+    name: torillic
+    custom_dir: custom_theme
+    extra.toc_heading: Содержание
     #palette:
 
     # Light mode
@@ -47,10 +49,14 @@ markdown_extensions:
 
   - toc:
       permalink: true
+  # "new line to break" - means it keeps single line breaks in the built html
+  - nl2br
 
 plugins:
   - search
   - roamlinks
+  # awesome-pages works well Torillic's contents pages as it allows an automatic nav to be generated from file structure
+  - awesome-pages
 
 extra_javascript:
   - javascripts/mathjax.js
