@@ -84,7 +84,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -179,8 +180,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5e0d6e2aa97ae98d",
+  "active": "9872d3eef99bc4c2",
   "lastOpenFiles": [
+    "__config.yml",
+    "Новий Text Document.txt",
     "docs/index.md",
     "docs/Гобелены.md"
   ]
