@@ -2,8 +2,18 @@
 
 {% block extrahead %}
     <meta property="og:title" content="{{ page.title | default(config.site_name) }}">
-    <meta property="og:description" content="{{ page.meta.description | default(config.site_description) }}">
-    <meta property="og:image" content="https://yourdomain.com/path-to-image.jpg">
+    <meta property="og:type" content="article">
+    {# Extract description from frontmatter or first paragraph #}
+    {% if page.meta.description %}
+        <meta property="og:description" content="{{ page.meta.description }}">
+    {% else %}
+        {% set first_paragraph = page.content | striptags | replace('\n\n', '. ') | split('. ') | first %}
+        <meta property="og:description" content="{{ first_paragraph }}">
+    {% endif %}
+    
+    {# Use the image specified in frontmatter, otherwise fallback to a default #}
+    <meta property="og:image" content="{{ page.meta.image | default('https://yourdomain.com/default-image.jpg') }}">
+    
     <meta property="og:url" content="{{ page.canonical_url | default(config.site_url) }}">
     <meta name="twitter:card" content="summary_large_image">
 {% endblock %}
