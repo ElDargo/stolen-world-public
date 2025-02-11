@@ -55,8 +55,6 @@ markdown_extensions:
 plugins:
   - search
   - roamlinks
-  # awesome-pages works well Torillic's contents pages as it allows an automatic nav to be generated from file structure
-  - awesome-pages
 
 extra_javascript:
   - javascripts/mathjax.js
