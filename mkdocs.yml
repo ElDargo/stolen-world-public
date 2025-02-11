@@ -1,4 +1,6 @@
-site_name: obsidian-mkdocs template
+site_name: Этион
+title: Этион Вики
+tagline: Историческая, географическая и культурная информация об Этионе
 
 theme:
     name: 'material'
@@ -59,6 +61,7 @@ plugins:
       categories:
         - categories
         - tags
+  - jekyll-seo-tag
 
 extra_javascript:
   - javascripts/mathjax.js
