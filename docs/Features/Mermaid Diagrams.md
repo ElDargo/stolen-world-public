@@ -1,6 +1,6 @@
 # Mermaid diagrams
 
-Here's the example from [MkDocs Material documentation](https://squidfunk.github.io/mkdocs-material/reference/diagrams/#using-flowcharts): 
+Here's the example from [[https://squidfunk.github.io/mkdocs-material/reference/diagrams/#using-flowcharts]]: 
 
 ```mermaid
 graph LR

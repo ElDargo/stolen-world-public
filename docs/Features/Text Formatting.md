@@ -15,4 +15,4 @@ Or checklist lists to
 Also, get highlights and strikethroughs as above (similar to Obsidian).
 
 
-More formatting options for your webpage [here](https://squidfunk.github.io/mkdocs-material/reference/formatting/#highlighting-changes). (but not compatible with Obsidian)
+More formatting options for your webpage [[https://squidfunk.github.io/mkdocs-material/reference/formatting/#highlighting-changes]]. (but not compatible with Obsidian)
