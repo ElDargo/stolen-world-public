@@ -1,4 +1,5 @@
 site_name: Этион
+site_url: https://eldargo.github.io/stolen-world-public
 
 theme:
     name: mkdocs
