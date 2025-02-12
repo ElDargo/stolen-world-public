@@ -53,12 +53,17 @@ markdown_extensions:
       permalink: true
   # "new line to break" - means it keeps single line breaks in the built html
   - nl2br
+  - neoteroi.cards
 
 plugins:
   - search
   - roamlinks
   - mkdocs-audio
   - social
+  - neoteroi-mkdocs
+
+extra_css:
+  - css/neoteroi-mkdocs.css
 
 extra_javascript:
   - javascripts/mathjax.js
