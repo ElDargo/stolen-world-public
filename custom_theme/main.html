@@ -3,17 +3,17 @@
 {% block extrahead %}
     <meta property="og:title" content="{{ page.title | default(config.site_name) }}">
     <meta property="og:type" content="article">
-    {% if page.meta.description %}
-        <meta property="og:description" content="{{ page.meta.description }}">
+    {% if page.metadata.description %}
+        <meta property="og:description" content="{{ page.metadata.description }}">
     {% endif %}
-    {% if page.meta.banner and page.meta.banner.startswith("![[") and page.meta.banner.endswith("]]") %}
-        {% set extracted_filename = page.meta.banner[3:-2] %}
+    {% if page.metadata.banner and page.metadata.banner.startswith("![[") and page.metadata.banner.endswith("]]") %}
+        {% set extracted_filename = page.metadata.banner[3:-2] %}
         <meta property="og:image" content="{{ config.site_url ~ '/images/' ~ extracted_filename }}">
-    {% elif page.meta.image %}
-        {% if page.meta.image.startswith("http") %}
-            <meta property="og:image" content="{{ page.meta.image }}">
+    {% elif page.metadata.image %}
+        {% if page.metadata.image.startswith("http") %}
+            <meta property="og:image" content="{{ page.metadata.image }}">
         {% else %}
-            <meta property="og:image" content="{{ config.site_url ~ page.meta.image }}">
+            <meta property="og:image" content="{{ config.site_url ~ page.metadata.image }}">
         {% endif %}
     {% else %}
         <meta property="og:image" content="{{ config.site_url }}/default-image.jpg">
