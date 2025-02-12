@@ -58,6 +58,7 @@ plugins:
   - search
   - roamlinks
   - mkdocs-audio
+  - social
 
 extra_javascript:
   - javascripts/mathjax.js
