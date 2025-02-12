@@ -60,7 +60,6 @@ plugins:
   - roamlinks
   - mkdocs-audio
   - social
-  - neoteroi-mkdocs
 
 extra_css:
   - css/neoteroi-mkdocs.css
