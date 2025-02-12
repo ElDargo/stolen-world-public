@@ -59,7 +59,6 @@ plugins:
   - search
   - roamlinks
   - mkdocs-audio
-  - social
 
 extra_css:
   - css/neoteroi-mkdocs.css
