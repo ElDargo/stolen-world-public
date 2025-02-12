@@ -27,6 +27,7 @@ theme:
 
 # Extensions
 markdown_extensions:
+  - meta
   - footnotes
   # - attr_list
   - pymdownx.arithmatex:
