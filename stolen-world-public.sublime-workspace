@@ -1,0 +1,698 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"word",
+				"word_emitter"
+			],
+			[
+				"di",
+				"dictionaries"
+			],
+			[
+				"dictio",
+				"dictionary"
+			],
+			[
+				"diction",
+				"dictionary"
+			],
+			[
+				"dic",
+				"dictionary"
+			],
+			[
+				"dicti",
+				"dictionary"
+			],
+			[
+				"Res",
+				"RESULT_CHECKERS"
+			],
+			[
+				"send",
+				"send_audio"
+			],
+			[
+				"en",
+				"END"
+			],
+			[
+				"C",
+				"ConversationHandler"
+			],
+			[
+				"Use",
+				"UserContext"
+			],
+			[
+				"SELE",
+				"MAIN_SELECTION"
+			],
+			[
+				"SETT",
+				"SETTINGS_SELECTION"
+			],
+			[
+				"repl",
+				"reply_markup"
+			],
+			[
+				"sen",
+				"send_message"
+			],
+			[
+				"call",
+				"callback_data_prefix"
+			],
+			[
+				"FRE",
+				"FREE_AUDIO"
+			],
+			[
+				"Dic",
+				"Dictionary"
+			],
+			[
+				"dici",
+				"dictionaries"
+			],
+			[
+				"D",
+				"DICTIONARY"
+			],
+			[
+				"lan",
+				"languages"
+			],
+			[
+				"w",
+				"word_emitter"
+			],
+			[
+				"ass",
+				"assertIn"
+			],
+			[
+				"as",
+				"assertFalse"
+			],
+			[
+				"re_",
+				"re_check"
+			],
+			[
+				"re",
+				"re_get_opt"
+			],
+			[
+				"statu",
+				"status_text"
+			],
+			[
+				"mis",
+				"mistake_mod"
+			],
+			[
+				"cor",
+				"correct_mod"
+			],
+			[
+				"weight",
+				"weight_modifiers"
+			],
+			[
+				"prop",
+				"property\tNew Property"
+			],
+			[
+				"ALL",
+				"ALL_WORDS"
+			],
+			[
+				"setdic",
+				"setdictionary"
+			],
+			[
+				"prom",
+				"prompt_for_difficulty"
+			],
+			[
+				"DIC",
+				"DICT_DIRECTORY"
+			],
+			[
+				"file",
+				"file_path"
+			],
+			[
+				"PAR",
+				"ParserMode"
+			],
+			[
+				"Parse",
+				"ParserMode"
+			],
+			[
+				"ba",
+				"bakeries"
+			],
+			[
+				"max",
+				"max_time"
+			],
+			[
+				"add_",
+				"add_upgrade"
+			],
+			[
+				"bak",
+				"baker_available"
+			],
+			[
+				"up",
+				"upgrade_available"
+			],
+			[
+				"back",
+				"backery"
+			],
+			[
+				"backer",
+				"backeries"
+			],
+			[
+				"add",
+				"add_upgrade"
+			],
+			[
+				"upg",
+				"upgrade_available"
+			],
+			[
+				"backe",
+				"backery"
+			],
+			[
+				"bac",
+				"backer"
+			],
+			[
+				"excep",
+				"exceptions"
+			],
+			[
+				"Bes",
+				"BestiaryHTMLParser"
+			],
+			[
+				"parse",
+				"parse_stat_block"
+			],
+			[
+				"abil",
+				"abil_data"
+			],
+			[
+				"get",
+				"get_html"
+			],
+			[
+				"uniq",
+				"uniques"
+			],
+			[
+				"uni",
+				"unique"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Run",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Run",
+					""
+				],
+				[
+					"Run",
+					"Start"
+				],
+				[
+					"Run",
+					"Test"
+				]
+			],
+			[
+				"Run",
+				"Test"
+			]
+		],
+		[
+			[
+				[
+					"Run",
+					""
+				],
+				[
+					"Run",
+					"Start"
+				],
+				[
+					"Run",
+					"Test"
+				],
+				[
+					"Run",
+					"Test file"
+				]
+			],
+			[
+				"Run",
+				"Test file"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"bui",
+				"Build With: Python - Syntax Check"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/docs/stolen-world-public"
+	],
+	"file_history":
+	[
+		"/D/docs/languagebot/main.py",
+		"/D/docs/languagebot/bot/bot.py",
+		"/D/docs/languagebot/bot/word_emitters.py",
+		"/D/docs/languagebot/bot/result_checkers.py",
+		"/D/docs/languagebot/bot/user_context.py",
+		"/D/docs/languagebot/bot/utils.py",
+		"/D/docs/languagebot/bot/enums.py",
+		"/D/docs/languagebot/bot/singleton.py",
+		"/D/docs/languagebot/bot/dictionary.py",
+		"/D/docs/languagebot/bot/word.py",
+		"/D/docs/languagebot/test/test_word.py",
+		"/D/docs/languagebot/bot/settings.py",
+		"/D/docs/languagebot/bot/test.py",
+		"/D/docs/languagebot/bot/handlers.py",
+		"/D/docs/languagebot/bot/audio_processor.py",
+		"/D/docs/languagebot/bot/tmp.mp3",
+		"/D/docs/languagebot/languagebot.sublime-project",
+		"/D/docs/languagebot/__init__.py",
+		"/D/docs/languagebot/.gitignore",
+		"/D/docs/languagebot/token.bat",
+		"/C/Users/John/AppData/Roaming/Sublime Text/Packages/User/unittest.sublime-build",
+		"/C/Users/John/AppData/Roaming/Sublime Text/Packages/Git/Git.sublime-settings",
+		"/D/tools/Sublime Text/Packages/Python.sublime-package",
+		"/D/docs/englishbot/tests/test_word.py",
+		"/D/docs/englishbot/result_checkers.py",
+		"/D/docs/englishbot/utils.py",
+		"/D/docs/englishbot/enums.py",
+		"/D/docs/englishbot/word.py",
+		"/D/docs/englishbot/dictionary.py",
+		"/D/docs/englishbot/word_emitters.py",
+		"/D/docs/englishbot/bot.py",
+		"/D/docs/englishbot/user_context.py",
+		"/D/docs/englishbot/unittests/test_word.py",
+		"/D/docs/englishbot/dicts/Polish/Lesson 1/151-203.csv",
+		"/D/docs/englishbot/dicts/Polish/Lesson 1/101-150.csv",
+		"/D/docs/englishbot/dicts/Polish/Lesson 1/51-100.csv",
+		"/D/docs/englishbot/dicts/Polish/Lesson 1/1-50.csv",
+		"/D/docs/englishbot/dicts/Polish/pl_ua.csv",
+		"/D/docs/englishbot/dicts/Tests/pl_ua_small.csv",
+		"/D/docs/englishbot/<string>",
+		"/D/docs/englishbot/languagebot.sublime-project",
+		"/E/nfs/proj/py/englishbot/task_generators",
+		"/E/nfs/proj/py/englishbot/languagebot.sublime-project",
+		"/E/nfs/proj/py/dnd/dungeons_su.py",
+		"/E/nfs/proj/py/dnd/text_tools.py",
+		"/C/Users/john/AppData/Roaming/GIMP/2.10/plug-ins/gimp-stable-diffusion-horde.py",
+		"/F/proj/py/sdxl/sdxl_test.py",
+		"/E/nfs/proj/py/dnd/py_with_args.sublime-build",
+		"/E/nfs/proj/py/instagram.py",
+		"/E/nfs/proj/py/result.txt",
+		"/E/nfs/proj/py/backers.py",
+		"/C/Users/john/AppData/Roaming/Rainmeter/Rainmeter.ini",
+		"/E/nfs/books/Dropbox/Приложения/Dropbox PocketBook/books/game/dnd5e/Monster Manual 5e RUS.pdf",
+		"/E/nfs/proj/py/shadow_knight/Shadow_knight.py",
+		"/E/games/Endless Legend/steam_emu.ini",
+		"/E/games/Endless Space 2/steam_emu.ini",
+		"/E/inst/games/Myst - Masterpiece Edition (GOG)/Bonus Content/Myst_manual/Myst.pdf",
+		"/D/games/The Sims 2/EP9Data/TSBin/Sims2EP9.exe"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+			"<project filters>",
+			"<project filters>,<project filters>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"get_current_dir()",
+			"dictionaries[0]",
+			"generate_keyboard_markup",
+			"get_current_dir",
+			"Clear",
+			"Next",
+			"get_current_dir",
+			"dictionaries",
+			"dictionaries.",
+			"Next",
+			"dictionaries",
+			"dictionary",
+			"generate_keyboard_markup",
+			"SETTINGS",
+			"MENU",
+			"BEGIN",
+			"DICTIONARY",
+			"SETTINGS",
+			"generate_keyboard_markup",
+			"selection",
+			"print",
+			"SETTINGS",
+			"print",
+			"SETTING",
+			"ParseMode",
+			"MODE(int(",
+			"prompt",
+			"MENU",
+			"SETTING",
+			"avaliable_types",
+			"Dictionary",
+			"UserContext",
+			"WORD_EMITTERS",
+			"MODE",
+			"STATUS",
+			".languages",
+			".word",
+			"translation",
+			"_(",
+			"async def send_message(self, update: Update, context: CallbackContext, text, *args, **kwargs) -> None:\n        user = self.get_user(update)\n        send_fun = update.message.reply_text if update.message else update.callback_query.edit_message_text\n        await send_fun('\\n'.join(user.messages + [text]), *args,\n                       parse_mode=ParseMode.MARKDOWN_V2, **kwargs)\n        user.messages.clear()",
+			"async def send_message(self, update: Update, context: CallbackContext, text, *args, **kwargs) -> None:\n        user = self.get_user(update)\n        send_fun = update.message.reply_text if update.message else update.callback_query.edit_message_text\n        await send_fun('\\n'.join(user.messages + [text]), *args,\n                       parse_mode=ParseMode.MARKDOWN_V2, **kwargs)\n        user.messages.clear()\n",
+			"send_message",
+			"return",
+			"    ",
+			"print",
+			"RESULT_CHECKERS",
+			"weights",
+			"self.status",
+			"_",
+			"user.messages",
+			"user.dict",
+			"user.correct_count",
+			"_(",
+			"_",
+			"_(",
+			"user.",
+			"result_checkers",
+			"ParseMode",
+			"correct",
+			"get_current_dir",
+			"self.users[self.get_user(update)]",
+			"get_user",
+			"user.message",
+			"update.callback_query.user.id",
+			"context.chat_id",
+			"self._",
+			"context.user_data\\['(.*?)'\\]",
+			"user_data['",
+			"ESCAPE",
+			"sys",
+			"sete",
+			"test_type",
+			"get_random",
+			".'))\n",
+			"'message'",
+			"ttype",
+			"'n'",
+			"type",
+			"DIFFICULTY",
+			"difficulty",
+			"self.dictionaries",
+			"generate_keyboard_markup",
+			"current_path",
+			"all_dictionaries",
+			"file_path",
+			"message",
+			"ESACAPE",
+			"*",
+			"cuda",
+			"API_ROOT",
+			"backer",
+			"strong []",
+			"card-wra",
+			"page-item",
+			"Aar",
+			"(</?div)",
+			"bestiary/",
+			"ветеран",
+			"\t",
+			"english"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"current_dir",
+			"first_dict",
+			"dictionaries",
+			"MENU",
+			"STATE",
+			"main_menu",
+			"MENU",
+			"SETTING",
+			"\\t",
+			"correct",
+			"self.user.",
+			"self.get_user(update)",
+			"user.messages",
+			"self.get_user(update)",
+			"update.callback_query.user.id",
+			"_",
+			"user.\\1",
+			"_",
+			"difficulty",
+			"test_type",
+			"'index'",
+			"ttype",
+			"TYPE",
+			"type",
+			"path",
+			"dictionaries",
+			"filename",
+			"baker",
+			"\\n\\1",
+			"    "
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 247.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.help":
+	{
+		"height": 446.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "stolen-world-public.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		]
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 230.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
