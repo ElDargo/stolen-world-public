@@ -22,7 +22,7 @@
     <meta name="twitter:card" content="summary_large_image">
 {% endblock %}
 
-{% if page.meta.ccard %}
+{% if page and page.meta and page.meta.ccard %}
     <div class="grid cards" markdown>
     {% for child in nav.pages if child.url.startswith(page.url) and child.meta.title %}
     -   ![{{ child.title }}]({{ child.meta.banner | default('default-image.jpg') }}){ .lg }
