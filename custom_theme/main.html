@@ -24,8 +24,10 @@
 
 {% block content %}
     {{ super() }}
+    {% if page and page.meta %}
+        {{ page.meta }}
+    {% endif %}
     {% if page and page.meta and page.meta.ccard %}
-        Here!
         <div class="grid cards" markdown>
         {% for child in nav.pages if child.url.startswith(page.url) and child.meta.title %}
         -   ![{{ child.title }}]({{ child.meta.banner | default('default-image.jpg') }}){ .lg }
