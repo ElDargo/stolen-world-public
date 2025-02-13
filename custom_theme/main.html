@@ -22,16 +22,20 @@
     <meta name="twitter:card" content="summary_large_image">
 {% endblock %}
 
-{% if page and page.meta and page.meta.ccard %}
-    <div class="grid cards" markdown>
-    {% for child in nav.pages if child.url.startswith(page.url) and child.meta.title %}
-    -   ![{{ child.title }}]({{ child.meta.banner | default('default-image.jpg') }}){ .lg }
-        
-        **[{{ child.title }}]({{ child.url }})**
-        
-        ---
+{% block content %}
+    {{ super() }}
+    {{ page.meta | tojson }}
+    {% if page and page.meta and page.meta.ccard %}
+        <div class="grid cards" markdown>
+        {% for child in nav.pages if child.url.startswith(page.url) and child.meta.title %}
+        -   ![{{ child.title }}]({{ child.meta.banner | default('default-image.jpg') }}){ .lg }
+            
+            **[{{ child.title }}]({{ child.url }})**
+            
+            ---
 
-        {{ child.meta.description | default("No description available.") }}
-    {% endfor %}
-    </div>
-{% endif %}
+            {{ child.meta.description | default("No description available.") }}
+        {% endfor %}
+        </div>
+    {% endif %}
+{% endblock %}
