@@ -26,9 +26,8 @@
     {{ super() }}
 
     {% if page and page.meta and page.meta.ccard %}
-        {% set folder_path = page.url.rsplit('/', 1)[0] + '/' %}
+        {% set folder_path = nav.homepage.url + page.url.rsplit('/', 2)[0] + '/' %}
         {{ folder_path }}
-        {{nav.pages}}
         <div class="grid cards" markdown>
         {% for child in nav.pages if child.url.startswith(folder_path) and child.url != page.url %}
         -   ![{{ child.title }}]({{ child.meta.banner | default('default-image.jpg') }}){ .lg }
