@@ -24,10 +24,11 @@
 
 {% block content %}
     {{ super() }}
+
     {% if page and page.meta and page.meta.ccard %}
-        {{ nav.pages }}
+        {% set folder_path = page.url.rsplit('/', 1)[0] + '/' %}  {# Extract folder path #}
         <div class="grid cards" markdown>
-        {% for child in nav.pages if child.url.startswith(page.url) and child.meta.title %}
+        {% for child in nav.pages if child.url.startswith(folder_path) and child.url != page.url and child.title %}
         -   ![{{ child.title }}]({{ child.meta.banner | default('default-image.jpg') }}){ .lg }
             
             **[{{ child.title }}]({{ child.url }})**
