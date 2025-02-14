@@ -32,14 +32,13 @@
             <li class="folder-card">
                 <a href="{{ child.url }}" class="folder-card-header">{{ child.title }}</a>
                 <hr>
-                <div class="folder-card-content">
+                    {% if child.meta.banner %}
+                        {% set image_path = child.meta.banner.replace('![[', '').replace(']]', '') %}
+                    {% endif %}
+                <div class="folder-card-content" style="background-image: url('{{ config.site_url ~ '/images/' ~ image_path }}'); top: {{ child.meta.banner_y | default(0) }}px;">
                     <div class="folder-card-text">
                         {{ child.meta.description }}
                     </div>
-                    {% if child.meta.banner %}
-                        {% set image_path = child.meta.banner.replace('![[', '').replace(']]', '') %}
-                        <div class="folder-card-image" style="background-image: url('{{ config.site_url ~ '/images/' ~ image_path }}'); top: {{ child.meta.banner_y | default(0) }}px;"></div>
-                    {% endif %}
                 </div>
             </li>
         {% endfor %}
