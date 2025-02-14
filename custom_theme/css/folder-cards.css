@@ -1,0 +1,46 @@
+.folder-card {
+    background: rgba(255, 239, 184, 0.9);
+    border: 2px solid #8B0000;
+    border-radius: 12px;
+    padding: 15px;
+    margin: 20px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.folder-card-header {
+    font-size: 20px;
+    font-weight: bold;
+    color: #8B0000;
+    text-decoration: none;
+}
+
+.folder-card hr {
+    border: none;
+    height: 2px;
+    background: #8B0000;
+    margin: 5px 0;
+}
+
+.folder-card-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.folder-card-text {
+    flex: 1;
+    padding-right: 10px;
+    font-style: italic;
+}
+
+.folder-card-image {
+    width: 150px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 8px;
+    mask-image: linear-gradient(to left, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0));
+    -webkit-mask-image: linear-gradient(to left, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0));
+}

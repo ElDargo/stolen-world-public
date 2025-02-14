@@ -63,7 +63,8 @@ plugins:
   - roamlinks
   - mkdocs-audio
 
-# extra_css:
+extra_css:
+  - custom_theme/folder-cards.css
 
 extra_javascript:
   - javascripts/mathjax.js

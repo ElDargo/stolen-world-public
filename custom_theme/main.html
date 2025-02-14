@@ -28,16 +28,22 @@
     {% if page and page.meta and page.meta.ccard %}
         {% set folder_path = nav.homepage.url + page.url.rsplit('/', 2)[0] + '/' %}
         {{ folder_path }}
-        <div class="grid cards" markdown>
+        <div class="grid cards"><ul>
         {% for child in nav.pages if child.url.startswith(folder_path) and child.url != page.url %}
-        -   ![{{ child.title }}]({{ child.meta.banner | default('default-image.jpg') }}){ .lg }
-            
-            **[{{ child.title }}]({{ child.url }})**
-            
-            ---
-
-            {{ child.meta.description }}
+            <li class="folder-card">
+                <a href="{{ child.url }}" class="folder-card-header">{{ child.title }}</a>
+                <hr>
+                <div class="folder-card-content">
+                    <div class="folder-card-text">
+                        {{ child.meta.description }}
+                    </div>
+                    {% if child.meta.banner %}
+                        {% set image_path = 'images/' + child.meta.banner.replace('![[', '').replace(']]', '') %}
+                        <div class="folder-card-image" style="background-image: url('{{ image_path }}'); top: {{ child.meta.banner_y | default(0) }}px;"></div>
+                    {% endif %}
+                </div>
+            </li>
         {% endfor %}
-        </div>
+        </ul></div>
     {% endif %}
 {% endblock %}
